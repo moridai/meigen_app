@@ -1,0 +1,7 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// Webサイト全体にわたってレイアウトと個別のページにスタイルを与えるためのCSSを追加します
+.center {
+  text-align: center;
+}
