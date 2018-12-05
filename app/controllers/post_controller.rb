@@ -2,6 +2,7 @@ class PostController < ApplicationController
   def view
   end
 
-  def work
+  def random
+    @meigen = Meigen.all
   end
 end
