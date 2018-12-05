@@ -3,6 +3,7 @@ class PostController < ApplicationController
   end
 
   def random
-    @meigen = Meigen.all
+    # @meigens = Meigen.order("RANDOM()")
+    @meigens = Meigen.all
   end
 end
